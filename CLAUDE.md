@@ -125,6 +125,13 @@ AgenticWorkflow/
 |----------------|------|--------|
 | "워크플로우 만들어줘", "자동화 파이프라인 설계" | `workflow-generator` | SKILL.md |
 | "논문 스타일로 써줘", "학술적 글쓰기" | `doctoral-writing` | SKILL.md |
+| "애니메이션 리뷰해줘", "모션 코드 검수" (또는 `/anim-review`) | `review-animations` | SKILL.md |
+| "애니메이션 감사해줘", "모션 개선 계획", "앱 느낌 좋게" (또는 `/anim-audit`) | `improve-animations` | SKILL.md |
+| "이 효과 뭐라고 불러?", "모션 용어 찾아줘" (또는 `/vocab`) | `animation-vocabulary` | SKILL.md |
+| UI 폴리시·컴포넌트·애니메이션 구현 판단 전반 | `emil-design-eng` | SKILL.md |
+| 제스처·스프링·시트/드래그·Apple 스타일 인터랙션 | `apple-design` | SKILL.md |
+
+> `review-animations`는 `disable-model-invocation: true`이므로 자동 발동 불가 — 위 패턴 감지 시 Skill tool로 **명시적으로 호출**할 것.
 
 ## 설계 원칙
 
